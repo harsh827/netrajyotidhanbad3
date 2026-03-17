@@ -117,16 +117,14 @@ overflow:hidden;
 }
 .btn {
 	color:#ffffff;
-	background: #ff0000;
+	background: #f7fb00;
 }
-.btn:hover {
-	 color:#fff !important;
-	background:#CA1098;
-}
- a:hover {
+
+a:hover {
 	
 	 color:#F443C5 !important;
  }
+
 .btn{
 display: inline-block;
 padding: 8px 12px;
@@ -581,11 +579,21 @@ img, video, iframe, embed, object {
 /* Features
     -------------------------------------------------*/
 #aboutUs {
-	background: #fff;
+	background: #A00000;
+	color:#ffffff;
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
 }
+
+#aboutUs h2,
+#aboutUs h3,
+#aboutUs h4,
+#aboutUs p,
+#aboutUs li{
+color:#ffffff;
+}
+
 #aboutUs .feature {
 	margin-top: 30px;
 	margin-bottom: 54px;
@@ -1354,4 +1362,35 @@ width:100%;
 .map-container iframe{
 width:100%;
 border:0;
+}
+
+.btn-color1{
+background:#1100ff !important;
+color:#ffffff !important;
+padding:8px 12px;
+border-radius:30px !important;
+}
+
+.welcome-box{
+text-align:center;
+background:#ffffff;
+padding:20px 15px;
+margin:20px auto;
+max-width:800px;
+border-radius:10px;
+box-shadow:0px 4px 8px rgba(0,0,0,0.08);
+}
+
+.welcome-box h3{
+margin:0;
+font-size:28px;
+font-weight:600;
+color:#333;
+}
+
+.welcome-divider{
+width:80px;
+height:3px;
+background:#A00000;
+margin:10px auto 0 auto;
 }

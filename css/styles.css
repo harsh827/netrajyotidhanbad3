@@ -33,7 +33,7 @@ body {
  background: #ff0000;
 }
 p {
-	color: #858585;
+	color: #000000;
 	margin: 0 0 1em !important;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -1302,4 +1302,20 @@ nav#filter li {
 }
 .isotopeWrapper article {
 	margin: 0px;
+}
+
+.about-img22{
+  max-width:100%;
+  display:block;
+  margin:0 auto;
+}
+
+.listNumber {
+  list-style-type: decimal;
+  padding-left:20px;
+  font-weight: bold;
+}
+
+.listNumber li{
+  margin-bottom:8px;
 }

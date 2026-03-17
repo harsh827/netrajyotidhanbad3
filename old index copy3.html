@@ -31,59 +31,38 @@
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<script>
-
-const toggle = document.getElementById("navToggle");
-const menu = document.getElementById("navMenu");
-
-toggle.addEventListener("click", function(){
-menu.classList.toggle("active");
-});
-
-</script>
-
 <body>
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a href="#home" class="navbar-brand scroll-top animated bounceInLeft">
+        <img src="images/logo/logo.png" alt="Netrajyoti Eye Centre Logo" class="site-logo">
+        </a>
 
 
 
-
-<header class="custom-navbar">
-
-<div class="container nav-container">
-
-<!-- Logo -->
-<div class="nav-logo">
-<a href="#home">
-<img src="images/logo/logo.png" alt="Netrajyoti Eye Centre">
-</a>
-</div>
-
-<!-- Mobile Toggle -->
-<div class="nav-toggle" id="navToggle">
-<span></span>
-<span></span>
-<span></span>
-</div>
-
-<!-- Menu -->
-<nav class="nav-menu" id="navMenu">
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#aboutUs">About Us</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#work">Gallery</a></li>
-<li><a href="#contactUs">Contact Us</a></li>
-</ul>
-</nav>
-
-</div>
-
-</header>  
-
-
-
-
-
+        <!-- <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>NJ Eye Centre</i></b></a> </div> -->
+      <!--/.navbar-header-->
+      <div id="main-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="mainNav">        
+          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
+          <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+          <li><a href="#services" class="scroll-link">Services</a></li>
+          <li><a href="#work" class="scroll-link">Gallery</a></li>
+          <!-- <li><a href="#plans" class="scroll-link">Plans</a></li> -->
+          <!-- <li><a href="#team" class="scroll-link">Team</a></li> -->
+          <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
+        </ul>
+      </div>
+      <!--/.navbar-collapse--> 
+    </nav>
+    <!--/.navbar--> 
+  </div>
+  <!--/.container--> 
+</header>
+<!--/.header-->
 <div id="#top"></div>
 <section id="home">
   <div class="banner-container"> <img src="images/Outside2.jpg" alt="banner" />

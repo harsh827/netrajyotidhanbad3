@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://netrajyotidhanbad3.harsh828207.workers.dev/
+Sitemap: https://netrajyotidhanbad3.harsh828207.workers.dev/sitemap.xml

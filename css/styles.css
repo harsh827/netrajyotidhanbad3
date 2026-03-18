@@ -70,19 +70,7 @@ h6{
 background: url('../images/links-arrow.png') 0px 12px no-repeat;
 padding-left:15px;
 }
-.progress {
-height: 12px;
-border-radius:0px;
-}
-.progress .progress-bar.progress-bar-red {
-background: #F76E26;
-}
-.progress .progress-bar.progress-bar-green {
-background: #51D4B6;
-}
-.progress .progress-bar.progress-bar-lblue {
-background: #9FDE32;
-}
+
 .feature a {
 display: inline-block;
 font-size: 18px;
@@ -900,28 +888,7 @@ body {
 .contact ul li i {
 	margin-right: 15px;
 }
-/*Clients*/
-.clients #owl-demo .item {
-	background: none;
-}
-.clients .helper {
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-.clients .helper img {
-	vertical-align: middle;
-	max-height: 70px;
-	max-width: 80%;
-}
-.clients .helper:hover {
-	cursor: e-resize;
-}
-.clients .customNavigation > a {
-	font-size: 25px;
-	cursor: pointer;
-	margin: 0px 5px;
-}
+
 .portfolio-item img:hover {
 	width: 110%;
 	height: 110%;
@@ -1228,9 +1195,7 @@ nav#filter li {
 .parlex-back .heading p {
 	color: #FDFDFD;
 }
-#clients {
-	background: #fff;
-}
+
 /*Price table*/
 .flat .plan {
 	border-radius: 0px;
@@ -1280,9 +1245,7 @@ nav#filter li {
 .customNavigation {
 	display: none;
 }
-#clients .heading {
-	margin: 0px;
-}
+
 .isotope-item {
 	margin: 0px;
 	padding: 0px;
@@ -1583,37 +1546,21 @@ height:40px;
 
 }
 
-@media (max-width:768px){
-
-.nav-menu{
-position:absolute;
-top:70px;
-left:0;
-width:100%;
-background:#000;
-display:none;
+.nav-menu ul li a.active{
+color:#ffe206;
 }
 
-.nav-menu ul{
-flex-direction:column;
-text-align:center;
-padding:20px 0;
-}
-
-.nav-menu ul li{
-padding:10px 0;
-}
+/* Mobile hamburger button */
 
 .nav-toggle{
-display:flex;
+background:#ff0000;
+padding:8px 8px;
+border-radius:4px;
 }
 
-.nav-menu.active{
-display:block;
-}
-
-.nav-logo img{
-height:40px;
-}
-
+.nav-toggle span{
+height:5px;
+width:25px;
+background:#ffffff;
+margin:4px 0;
 }

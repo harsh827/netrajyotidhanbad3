@@ -1571,3 +1571,11 @@ font-weight:600;
 font-size:16px;
 margin-bottom:10px;
 }
+
+.email-protect .hide{
+display:none;
+}
+
+#contactUs .email-protect{
+color: #efda3a !important;
+}
